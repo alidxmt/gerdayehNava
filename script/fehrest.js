@@ -13,8 +13,8 @@ var tree = d3.cluster()
 d3.csv("script/flare.csv", function(error, data) {
   if (error) throw error;
 
-  var root = tree(stratify(data)
-      .sort(function(a, b) { return (a.height - b.height) || a.id.localeCompare(b.id); }));
+  var root = tree(stratify(data))
+      // .sort(function(a, b) { return (a.height - b.height) || a.id.localeCompare(b.id); }));
 
   var link = g.selectAll(".link")
     .data(root.descendants().slice(1))
