@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style\dastgah-ha.css">
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <style>
+
+        .node circle {
+          fill: #999;
+        }
+        
+        .node text {
+          font: 10px tahoma;
+          fill:gray;
+        }
+        
+        .node--internal circle {
+          fill: #555;
+        }
+        
+        .node--internal text {
+          text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+        }
+        
+        .link {
+          fill: none;
+          stroke: #555;
+          stroke-opacity: 0.4;
+          stroke-width: 1.5px;
+        }
+        
+        </style>
+    <title>پایه-نغمه‌های ایرانی</title>
+</head>
+<body>
+    <div id="main-div" class="dastgah-ha-div">
+        <svg width="960" height="950"></svg>
+
+        <div id="fartur-div"></div>
+
+    <h1 class="fehrest-dastgah-ha">دستگاه‌ها</h1>  
+    <div id="dastgahha-div">      
+        <ul class="dastgah-ha">
+            <li><h4>شور</h4></li>
+            <li><h4>سه‌گاه</h4></li>
+            <li><h4>نوا</h4></li>
+            <li><h4>همایون</h4></li>
+            <li><h4>چهارگاه</h4></li>
+            <li><h4>ماهور</h4></li>
+            <li><h4>راست پنجگاه</h4></li>
+        </ul>
+    </div>
+    </div>
+</body>
+<script src="script\fehrest.js"></script>
+<!--<script src="script\flare.js"></script>-->
+</html>

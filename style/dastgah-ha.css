@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.dastgah-ha-div {
+    text-align: right;
+}
+
+.dastgah-ha {
+    text-align: right;
+    direction: rtl;
+}
+
+.fehrest-dastgah-ha {
+    padding: 25px;
+}
+
+#dastgahha-div {
+    padding-right: 25px;
+}
